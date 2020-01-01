@@ -3,7 +3,7 @@ languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
 title = "Fei-Fei Huang"                                   # website title
 theme = "LoveIt"                                         # theme
-enableGitInfo = true                                    # whether to use git commit log to generate lastmod record
+enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = true                                   # whether to include chinese/japanese/korean
 paginate = 12                                            # default amount of posts in each pages
 enableEmoji = true                                       # whether to use emoji code
@@ -57,11 +57,11 @@ staticDir = ["static", "../assets/others"]               # static directories
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "zh"
-    weight = 5
+  # [[menu.main]]
+  #  identifier = "zh"
+  #  name = '<i class="fas fa-language fa-fw"></i>'
+  #  url = "zh"
+  #  weight = 5
 
 [params]
   version = "5.x"                                        # LoveIt theme version
@@ -114,16 +114,16 @@ staticDir = ["static", "../assets/others"]               # static directories
     meting_js = ''
 
   [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
-    email = ""
+    email = "huangfeifei5943@sina.cn"
 
   [params.social]                                        # Social Info in home page
-    GitHub = "github.com/IvanFei"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    GitHub = "IvanFei"
+    #Linkedin = "xxxx"
+    #Twitter = "xxxx"
     #Instagram = "xxxx"
-    #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Email = "huangfeifei5943@sina.cn"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
@@ -137,7 +137,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Codepen = "xxxx"
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxx"
-    #Weibo = "xxxx"
+    Weibo = "huangfeifeiwb"
     #Odnoklassniki = "xxxx"
     #VKontakte = "xxxx"
     #Flickr = "xxxx"
@@ -160,7 +160,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Strava = "xxxx"
     #Skype = "xxxx"
     #Whatsapp = "xxxx"
-    #Zhihu = "xxxx"
+    Zhihu = "huang-xiao-xian-fei"
     #Douban = "xxxx"
     #Angellist = "xxxx"
     #Slidershare = "xxxx"
@@ -186,10 +186,10 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Mix = true
     #Tumblr = true
     #VKontakte = true
-    #Weibo = true
+    Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "XXXX"
+    name = "Fei-Fei"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
@@ -206,8 +206,8 @@ staticDir = ["static", "../assets/others"]               # static directories
     height = 600
 
   [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
-    owner = ""
-    repo = ""
+    owner = "Fei-Fei"
+    repo = "hugo-ivanfei"
     clientId = ""
     clientSecret = ""
 
