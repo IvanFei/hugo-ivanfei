@@ -3,7 +3,7 @@ languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
 title = "Fei-Fei Huang"                                   # website title
 theme = "LoveIt"                                         # theme
-enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
+enableGitInfo = true                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = true                                   # whether to include chinese/japanese/korean
 paginate = 12                                            # default amount of posts in each pages
 enableEmoji = true                                       # whether to use emoji code
@@ -52,15 +52,21 @@ staticDir = ["static", "../assets/others"]               # static directories
     weight = 3
 
   [[menu.main]]
+    identifier = "plan"
+    name = "Plan"
+    url = "plan"
+    weight = 4
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "about"
-    weight = 4
+    weight = 5
 
-  # [[menu.main]]
+  #[[menu.main]]
   #  identifier = "zh"
   #  name = '<i class="fas fa-language fa-fw"></i>'
-  #  url = "zh"
+  #  url = "https://hugo-loveit-zh.netlify.com"
   #  weight = 5
 
 [params]
@@ -72,7 +78,7 @@ staticDir = ["static", "../assets/others"]               # static directories
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
   avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "Hey, Welcome to Fei-Fei's HomePage"  # subtitle shown in home page
+  subtitle = "Welcome to Fei-Fei's HomePage"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
@@ -81,7 +87,7 @@ staticDir = ["static", "../assets/others"]               # static directories
   icp = ''                                               # ICP info only in China (HTML format is allowed)
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
-  gitRepo = "https://github.com/IvanFei/hugo-ivanfei"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
+  gitRepo = "https://github.com/IvanFei/IvanFei.github.io"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
   linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
 
@@ -114,7 +120,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     meting_js = ''
 
   [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
-    email = "huangfeifei5943@sina.cn"
+    email = ""
 
   [params.social]                                        # Social Info in home page
     GitHub = "IvanFei"
@@ -186,10 +192,10 @@ staticDir = ["static", "../assets/others"]               # static directories
     #Mix = true
     #Tumblr = true
     #VKontakte = true
-    Weibo = true
+    #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "Fei-Fei"
+    name = "XXXX"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
@@ -206,8 +212,8 @@ staticDir = ["static", "../assets/others"]               # static directories
     height = 600
 
   [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
-    owner = "Fei-Fei"
-    repo = "hugo-ivanfei"
+    owner = ""
+    repo = ""
     clientId = ""
     clientSecret = ""
 
